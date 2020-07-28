@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  background-color: blueviolet;
+}
+
+h1 {
+  text-emphasis: bold;
+}
+
+ul {
+  background-color: greenyellow;
+  list-style-type: none;
+}
+
+a {
+  text-decoration-color: black;
+  background-color: greenyellow;
+}

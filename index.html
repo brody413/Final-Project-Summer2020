@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" async></script>
+  <script src="locationAPI.js" async></script>
+</head>
+
+<body>
+  <main>
+    <h1>Brody's Wonderful List Of Things</h1>
+    <h3>Enter a Item and Press "Add Item" to Add to Your List</h3>
+    <section>
+      <div class="">
+        <label>Please Enter in Your TODO Item</label>
+        <input type="text" id="textBoxAdd">
+        <button type="button" id="addBtn">Add Item</button>
+      </div>
+    </section>
+    <section>
+      <ul id="theNewList">
+
+      </ul>
+    </section>
+    <section>
+      <div>
+        <h3>Check Your Location so You Can View a Map of Where You Are</h3>
+        <h4>This Can Be Used To Map Out How to Get To A Destination For Task Completion</h4>
+        <p>HINT: CLICK THE COORDINATES</p>
+        <button id="myLocation">Give Me My Coordinates</button>
+        <p id="status"></p>
+        <a id="map" target="_self"></a>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
